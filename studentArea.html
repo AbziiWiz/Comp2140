@@ -6,8 +6,9 @@
 </head>
 <style>
   .look{
-    color: deepskyblue;
-    font-size: 40px;
+    color: black;
+    font-size: 20px;
+    float: right;
   }
   
 </style>
@@ -17,21 +18,8 @@
     function Submit(){
       
       var div = document.getElementById('assignment1');
-      div.setAttribute("class","look");
-      
-          div.innerHTML = div.innerHTML + 'Title: Working with Css'; 
-          div.innerHTML = div.innerHTML + 'Due Date:  December 5, 2016'; 
-          div.innerHTML = div.innerHTML + 'Submit by: 11:59 pm';
-          div.innerHTML = div.innerHTML + 'Instructions:  The Object of this assignment is to use CSS to style web pages';
-          div.innerHTML = div.innerHTML + '1. Create a resume using HTML';
-          div.innerHTML = div.innerHTML + '2. Ensure to include a Photo';
-          div.innerHTML = div.innerHTML + '3.Use CSS to style'; 
-          div.innerHTML = div.innerHTML + '4. Submit Online';
-          div.innerHTML = div.innerHTML + 'GOOD LUCK!!!'; 
-          div.innerHTML = div.innerHTML + 'Total Marks: 100';
-          div.innerHTML = div.innerHTML + 'Mark Scheme:HTML 40';
-          div.innerHTML = div.innerHTML + 'CSS 60';
-      
+      div.innerHTML = div.innerHTML + "<pre>Title: Working with Css Due Date: <br/> December 5, 2016  <br/>Submit by: 11:59 pm <br/> Instructions:  The Object of this assignment is to use CSS to style web pages<br/>1. Create a resume using HTML<br/>2. Ensure to include a Photo <br/>3.Use CSS to style <br/>  4. Submit Online <br/>GOOD LUCK!!!<br/>Total Marks: 100<br/>Mark Scheme:HTML 40<br/>CSS 60<pre>";
+      div.setAttribute("class","look"); 
     }
 </script>
 
@@ -54,7 +42,7 @@
   </div>
 <div class="dash">
     <div class="imgicon">
-        <a href="https://finalpresentation2140-abigailthomas.c9users.io/Student Page.html">
+        <a href="https://finalpresentation2140-abigailthomas.c9users.io/StudentPage.html">
             <img src="home.png" style="width:65px;height:60px;margin-bottom:10px">
         </a>
         <a href="https://finalpresentation2140-abigailthomas.c9users.io/studentArea.html">
@@ -81,8 +69,9 @@
 
   
   <div class="content">
-    <div class="portal" onclick="Submit()"><h2>Assignment 1</h2></div>
-    <button class="submit"><a href="https://finalpresentation2140-abigailthomas.c9users.io/Submission Area.html">Submit </a></button>
+    <div class="portal" onclick="Submit()" id ="assignment1"><h2>Assignment 1</h2></div>
+    
+   <button class="submit">  <a href="https://finalpresentation2140-abigailthomas.c9users.io/SubmissionArea.html">Submit </a></button> 
 		<div class="portal"><h2>Assignment 2</h2></div>
         <div class="submit"><a href="submit.html"></a>Submit </div>
 		<div class="portal"><h2>Assignment 3</h2></div>
