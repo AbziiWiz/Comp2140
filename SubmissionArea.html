@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>inTime v1.0</title>
+<link rel="stylesheet" href="subStyle.css" type="text/css" />
+<script>
+		function validate(){
+          
+          var title = document.getElementById('student');
+		  var assignment = document.getElementById('assignment');
+          if (title.value ==""){
+            alert ("Student ID required or marks will be deducted");
+          }
+          else if (assignment.value ==""){
+            
+            alert ("Upload Document has not been selected");
+          }
+		  else{
+				alert('Assignment Submitted for grading');
+		  }
+		  
+        }
+</script>
+
+</head>
+<body>
+  <ul class="bar">
+        <left><li> inTime v1.0 </li></left>
+    </ul>
+<div class="info">
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="avatar.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+      <p>Name : Krystan Hunter</p>
+      <p>ID Number : 620080883</p>
+      <p>Major: Software Engineering </p>
+      <p>GPA: UP!</p>
+  </div>
+</form>
+  </div>
+<div class="dash">
+    <div class="imgicon">
+        <a href="https://finalpresentation2140-abigailthomas.c9users.io/StudentPage.html">
+            <img src="home.png" style="width:65px;height:60px;margin-bottom:-5px">
+        </a>
+        <a href="https://finalpresentation2140-abigailthomas.c9users.io/StudentPage.html">
+            <img src="message.png" style="width:65px;height:65px;margin-left:50px;margin-bottom:-5px">
+        </a>
+        <a href="https://finalpresentation2140-abigailthomas.c9users.io/StudentPage.html">
+        <img src="calendar.png" style="width:65px;height:65px;margin-left:50px;margin-bottom:-5px">
+        </a>
+        <a href="https://finalpresentation2140-abigailthomas.c9users.io/StudentPage.html">
+        <img src="news.png" style="width:65px;height:65px;margin-left:50px;margin-bottom:-5px">
+        </a>
+        <a href="https://finalpresentation2140-abigailthomas.c9users.io/StudentPage.html">
+        <img src="settings.png" style="width:65px;height:65px;margin-left:50px;margin-bottom:-5px">
+        </a>
+    </div>
+    
+</div>
+ <div class="container">
+</div>
+  <div class="content">
+    
+    <form class="sform">
+    <fieldset>
+            <legend>Submission Area</legend>
+            <p>Assignment</p>
+            Student ID: <input type='number' name="title" value="" max="50" />
+            <br />
+            Submission Time: <input type="datetime" name="submissionTime"/>
+            <br />
+            Upload Link (Upload Assignment Below)
+           <input type="file" name="assignment"/>       <br />
+            <br />
+          <button type="button" onclick="validate()">Submit</button>
+          <button type="reset">Edit Submission</button>	
+        </fieldset>
+    </form>
+    </div>
+ 
+</body>
+
+</html>
+
