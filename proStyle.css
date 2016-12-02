@@ -1,0 +1,109 @@
+body
+{
+   
+    background-color: lightblue;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.left
+{
+    padding-left:-20%;
+    padding-right: 120%; 
+    padding-top: 60px;
+    width: 30%;
+    height: 40%;
+    position: center;
+}
+.container {
+    padding: 16px;
+ 
+}
+li 
+{
+    font-size: 50px;
+    font-family: Verdana; 
+    color: white;
+}
+.bar
+{
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: deepskyblue ;
+    opacity: 0.85;
+    filter: alpha(opacity=100);
+}
+.sbar
+{
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.sli 
+{
+    font-size: 10px;
+    font-family: Verdana; 
+    color: white;
+}
+.wel
+{
+    margin-top: 150px;
+    float: left;
+    font-size: 65px;
+    font-family: Georgia;
+    color: deepskyblue;
+}
+button {
+    
+    background-color: deepskyblue;
+    color: white;
+    float: right;
+    padding: 14px 20px;
+    margin-top: -90px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    
+    width: 40%;
+    border-radius: 50%;
+}
+form {
+    border: 3px solid #f1f1f1;
+}
+
+  .rcorners {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+} 
+footer
+{
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: deepskyblue;
+    font-family: Verdana;
+    height: 40px;
+    width: 1300px;
+    margin-left: -6px;
+    margin-top: 800px;
+    position: fixed;
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+
+}
+

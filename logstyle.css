@@ -1,0 +1,125 @@
+body
+{
+    width: auto;
+    background-color: lightblue;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.bdy
+{
+    padding-left:35%;
+    padding-right: 30%; 
+    padding-top: 60px;
+    width: 30%;
+    height: 25%;
+    position: center;
+}
+form {
+    background-color: deepskyblue;
+    border-radius: 25px;
+    opacity: 1;
+    height: 500px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    opacity: 1;
+}
+
+/* Avatar image */
+img.avatar {
+    
+    margin-top: 5px;
+    width: 40%;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+ 
+}
+
+
+span.psw {
+    float: left;
+    padding-top: 16px;
+}
+
+
+.back
+{
+    width: 102.2%;
+    height: 100%;
+    position: center;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.bar
+{
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: deepskyblue ;
+    opacity: 0.85;
+    filter: alpha(opacity=100);
+}
+li 
+{
+    font-size: 50px;
+    font-family: Verdana; 
+    color: white;
+}
+footer
+{
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: deepskyblue;
+    font-family: Verdana;
+    height: 40px;
+    width: 1300px;
+    margin-left: -6px;
+    margin-top: 520px;
+    position: fixed;
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+}
+
+}
