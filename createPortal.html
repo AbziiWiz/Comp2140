@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> inTime v1.0</title>
+<link rel="stylesheet" href="createPortal.css">
+<script>
+        function validate(){
+          
+          var title = document.getElementById('title');
+          if (title.value ==""){
+            alert ("Input field required");
+            
+          }
+          
+          var instructions = document.getElementById('instructions');
+          if (title.value ==""){
+            
+            alert ("Input field required");
+            
+          }
+          
+          var marks = document.getElementById('marks');
+          if (title.value ==""){
+            
+            alert ("Input field required");
+            
+          }
+          else{
+              alert("Portal Successfully Created")
+          }
+        }
+</script>
+
+
+</head>
+<body>
+    <ul class="bar">
+        <center><li> inTime v1.0 </li></center>
+    </ul>
+
+    <div class="container">
+        <div class="dash">
+    
+       
+  <div class="header"> 
+  		<h1>Assignment Portal</h1>
+    </div>
+
+    <div class="dash">
+    <div class="imgicon">
+        <a href=" https://finalpresentation2140-abigailthomas.c9users.io/Lecturer Page.html">
+            <img src="home.png" style="width:30px;height:30px;">
+        <a href=" https://finalpresentation2140-abigailthomas.c9users.io/createPortal.html">
+        <img src="settings.png" style="width:30px;height:30px;margin-left:15px;">
+        </a>
+    </div>
+    
+</div>
+  <div class="content">
+  	<form>
+    <fieldset>
+        <br>
+    	Assignment Title: <input type="text" name="title" value="" max="50" id="title" />
+        <br />
+        
+        Due Date: <input type="datetime" name="due" />
+        <br />
+        
+		Time: <input type ="time" name="time" value="11:59 pm"/>
+		<br />
+        Total Marks: <input type="number" name="marks" value="" id="marks"/>
+        <br />
+        
+        Upload Link Required:
+        	 Yes <input type="checkbox"/> 				         
+			 No <input  type="checkbox"/>
+        <br />
+        Mark Scheme<br />
+        
+        <textarea name="instrctions" row="25" cols="50"></textarea>
+        <br />
+        Instructions<br />
+        <textarea name="markScheme" rows="20" cols="50" id="instructions"></textarea>
+        <br />
+        <form>
+        <button type="button" onclick="validate()">CREATE PORTAL</button>
+        <button type="reset">RESET</button>
+        </form>
+        </fieldset>
+    </form>
+    
+    </div>
+</body>
+
+</html>

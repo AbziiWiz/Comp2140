@@ -1,0 +1,75 @@
+body
+{
+   
+    background-color: lightblue;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.header
+{
+	font-family: Verdana;
+	font-size: 20px;
+	color: deepskyblue;
+}
+
+.container {
+    padding: 20px;
+	width: 50%;
+	margin-left: 15%;
+	margin-right: 25%;
+ 
+}
+li 
+{
+    font-size: 50px;
+    font-family: Verdana; 
+    color: white;
+}
+.bar
+{
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: deepskyblue ;
+    opacity: 0.85;
+    filter: alpha(opacity=100);
+}
+button {
+    
+    background-color: red;
+    color: white;
+    float: left;
+    padding: 14px 20px;
+    margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+form {
+    border: 3px solid gray;
+	background-color: deepskyblue;
+	opacity: 0.9;
+	border-radius: 15px 50px 30px;
+	
+}
+
+fieldset
+{
+	border-style: none;
+	line-height: 40px;
+	font-family: Verdana;
+	font-size: 18px;
+	margin-left: 20%;
+
+}
+
+
